@@ -1,0 +1,156 @@
+/* Common Styles and Utilities */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+/* Header Part  */
+header{
+    background-color: #2D25A0;
+    height: 677px;
+    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    height: 44px;
+    padding-top: 42px;
+    margin-left:130px;
+    margin-right: 124px;
+    color: white;
+}
+ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+.menu-item li{
+    margin-right: 36px;
+}
+.login-detail .fa-sign-in-alt{
+    padding-right: 3px; 
+}
+.login{
+    background-color:#E02C6D;
+    padding: 2px 5px;
+}
+/* Banner Part  */
+.banner-part{
+    display: flex;
+}
+.banner-info h1{
+    width: 485px;
+    height: 230px;
+    font-weight: bold;
+    font-size: 64px;
+    margin-left: 156px;
+    margin-top: 207px;
+    color: white;
+}
+.banner{
+    margin-right: 117px;
+}
+.banner img{
+    width: 556px;
+    height: 438px;
+    margin-left: 102px;
+    margin-top: 143px;
+    overflow: hidden; 
+}
+.banner img:hover{
+    transform: scale(1.087) skew(-15deg);
+    transition: transform 3s ease-in-out ;
+}
+.link-button{
+    background-color: #e02c6d;
+    text-decoration: none;
+    padding: 10px 24px;
+    margin-left: 156px;
+    margin-top: 27px;
+    color: white;
+}
+.link-button:hover{
+    background-color:#5e596b;
+    color: white;
+}
+/* Player section  */
+.container{
+    width: 1050px; 
+}
+.player-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 27px 30px;
+    margin: 0 180px;
+}
+.players{
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player{
+    display: flex;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    padding: 5px;
+    overflow: hidden;
+}
+.player-details {
+    width: 300px;
+    height: 154px;
+    padding: 5px;
+}
+.player-detail h2{
+    font-size: 28px;
+}
+.highlight-part{
+    display: flex;
+}
+.highlight-info{
+    width: 489px;
+    height: 309px;
+    margin-left: 182px;
+    margin-top: 200px;
+}
+.highlight-info h3{
+font-size: 48px;
+font-weight: 700;
+margin: 0;
+}
+.match-image{
+    margin-left: 66px;
+    margin-top: 165px;
+}
+.match-image img{
+    width: 567px;
+    width: 427px;
+}
+.watch-btn{
+    margin: 0;
+}
+/* footer style  */
+footer{
+    margin-top: 158px;
+    text-align: center;
+}
+.footer-image img{
+    width: 484px;
+    height: 110px;
+}   
+.social-logo .social{
+    width: 50px;
+    height: 32px;
+    border-radius: 100%;
+}
+.social-logo .social:hover{
+    color: blue;
+}
