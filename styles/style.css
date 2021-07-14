@@ -210,6 +210,7 @@ margin: 0;
 
     transition: transform 2s ease-in-out;
 }
+
 /* footer style  */
 footer{
     margin-top: 158px;
@@ -300,9 +301,12 @@ footer{
     .container{
         width: 100%;
     }
-    .player-card, .photo-album, .highlight-part{
+    .player-card, .photo-album{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
+    }
+    .highlight-part{
+        grid-template-columns: repeat(1, 1fr);
     }
     .login-icon a{
         display: flex;
